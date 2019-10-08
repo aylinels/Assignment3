@@ -1,0 +1,51 @@
+.container {
+  margin: 0px;
+}
+
+.poem{
+position: absolute;
+height: 50vh;
+width: 40vh;
+top: 20%;
+left: 60%;
+background-color: transparent;
+left: 60%;
+top: 20%;
+font-family: Futura;
+font-size: 12px;
+color: white;
+}
+
+.box{
+position: absolute;
+background-color: blue;
+height: 100vh;
+width: 80vh;
+animation-name: box-move;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+
+.link{
+position: absolute;
+bottom: 5px;
+right: 40px;
+font-family: Futura;
+}
+
+
+@keyframes box-move{
+  0% {left: 0%;
+      top: 0px;}
+  20% {left: 20%;
+  top: 0px;}
+  40% {left: 40%;
+  top: 0px;}
+  60% {left: 60%;
+  top: 0px;}
+  80% {left: 80%;
+  top: 0px;}
+  100% {left: 100%;
+  top: 0px;}
+}

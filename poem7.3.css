@@ -1,0 +1,64 @@
+.container {
+  margin: 0;
+}
+
+.poem {
+  position: absolute;
+  font-family: Futura;
+  left: 50%;
+  top: 20%;
+  background-color: yellow;
+  height: 80%;
+  width: 100vw;
+  padding: 40px;
+
+}
+
+.box {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  background-color: white;
+  height: 50%;
+  width: 150px;
+  border: solid yellow 15px;
+}
+
+.box2 {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  background-color: white;
+  height: 110px;
+  width: 150px;
+  border: solid yellow 15px;
+}
+
+.box3 {
+  position: absolute;
+  left: 16%;
+  top: 67%;
+  background-color: white;
+  height: 80px;
+  width: 150px;
+  border: solid yellow 15px;
+}
+
+.box4 {
+  position: absolute;
+  left: 15%;
+  top: 33%;
+  background-color: white;
+  height: 80px;
+  width: 100px;
+  border: solid yellow 15px;
+}
+
+.link {
+  position: absolute;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 10px;
+  bottom: 5%;
+  right: 5%;
+}

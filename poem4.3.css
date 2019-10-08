@@ -1,0 +1,98 @@
+.container {
+  font-family: Futura;
+  color: white;
+  font-size: 8px;
+}
+
+
+.box {
+position: absolute;
+height: 50vh;
+width: 650px;
+left: 0px;
+top: 0px;
+padding: 20px;
+box-sizing: border-box;
+animation-name: box;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.box2 {
+position: absolute;
+height: 50vh;
+width: 650px;
+right: 0px;
+top: 0px;
+padding: 20px;
+box-sizing: border-box;
+animation-name: box2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.box3 {
+position: absolute;
+height: 50vh;
+width: 650px;
+left: 0px;
+bottom: 0px;
+padding: 20px;
+box-sizing: border-box;
+animation-name: box3;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.box4 {
+position: absolute;
+height: 50vh;
+width: 650px;
+right: 0px;
+bottom: 0px;
+padding: 20px;
+box-sizing: border-box;
+animation-name: box4;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+.link{
+position: absolute;
+font-family: Futura;
+right: 10px;
+bottom: 5px;
+}
+
+
+@keyframes box {
+  0% {background-color: red}
+  25% {background-color: white}
+  50% {background-color: white}
+  75% {background-color: white}
+  100% {background-color: red}
+}
+
+@keyframes box2 {
+  0% {background-color: white}
+  25% {background-color: blue}
+  50% {background-color: white}
+  75% {background-color: white}
+  100% {background-color: white}
+}
+
+@keyframes box3 {
+  0% {background-color: white}
+  25% {background-color: white}
+  50% {background-color: white}
+  75% {background-color: #ffd600}
+  100% {background-color: white}
+}
+
+@keyframes box4 {
+  0% {background-color: white}
+  25% {background-color: white}
+  50% {background-color: green}
+  75% {background-color: white}
+  100% {background-color: white}
+}

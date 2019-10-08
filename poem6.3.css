@@ -1,0 +1,166 @@
+.container {
+  margin: 0;
+  font-family: Futura;
+}
+
+.box {
+  width: 100%;
+  height: 85%;
+  box-sizing: border-box;
+  animation-name: box-color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.rectangle {
+  position: absolute;
+  background-color: black;
+  width: 70vh;
+  height: 30vh;
+  animation-name: rectangle-move;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+}
+
+.link {
+font-family: Futura;
+font-weight: bold;
+font-size: 10px;
+top: 5%;
+left: 5%;
+}
+
+#title{
+position: absolute;
+font-size: 100px;
+left: 50px;
+}
+
+#caught{
+position: absolute;
+font-size: 80px;
+left: 20px;
+top: 80%;
+}
+
+#spirit{
+position: absolute;
+font-size: 150px;
+left: 10px;
+top: 20%;
+}
+
+#creature{
+position: absolute;
+font-size: 20px;
+left: 90px;
+top: 37%;
+}
+
+#compass{
+position: absolute;
+font-size: 10px;
+left: 75%;
+top: 43%;
+}
+
+#wobbling{
+position: absolute;
+font-size: 50px;
+left: 78%;
+top: 70%;
+}
+
+#undecided{
+position: absolute;
+font-size: 6px;
+left: 74%;
+top: 5%;
+}
+
+#freed{
+position: absolute;
+font-size: 30px;
+left: 60px;
+top: 70%;
+}
+
+#thermometer{
+position: absolute;
+font-size: 20px;
+left: 60%;
+top: 15%;
+}
+
+#running{
+position: absolute;
+font-size: 46px;
+left: 56%;
+top: 63%;
+}
+
+#rainbow{
+position: absolute;
+font-size: 8px;
+left: 50%;
+top: 25%;
+}
+
+#narrow{
+position: absolute;
+font-size: 30px;
+left: 45px;
+top: 30%;
+}
+
+#empty{
+position: absolute;
+font-size: 58px;
+left: 60%;
+top: 15%;
+}
+
+#flying{
+position: absolute;
+font-size: 40px;
+left: 30%;
+top: 35%;
+}
+
+#gay{
+position: absolute;
+font-size: 40px;
+left: 45%;
+top: 80%;
+}
+
+#author{
+position: absolute;
+font-size: 40px;
+left: 78%;
+top: 5%;
+text-align: right;
+}
+
+@keyframes rectangle-move {
+  0% {left: 30%;
+      top: 60%;}
+  20% {left: 7%;
+  top: 5%;}
+  40% {left: 40%;
+  top: 70%;}
+  60% {left: 59%;
+  top: 5%;}
+  80% {left: 56%;
+  top: 70%;}
+  100% {left: 17%;
+  top: 59%;}
+}
+
+@keyframes box-color {
+  0% {background-color: white}
+  25% {background-color: white}
+  50% {background-color: white}
+  75% {background-color: red}
+  100% {background-color: white}
