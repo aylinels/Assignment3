@@ -1,0 +1,90 @@
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: Futura;
+  color: white;
+  font-size: 7px;
+}
+
+#author{
+position: absolute;
+font-family: Futura;
+font-size: 10px;
+left: 296%;
+top: 155%;
+}
+
+#title{
+position: absolute;
+font-family: Futura;
+font-size: 200px;
+left: 10%;
+top: 2%;
+}
+
+.poem {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+    background-color: #3400e2;
+}
+
+.block {
+ position: absolute;
+ left: 70%;
+ top: 20%;
+ padding: 40px;
+}
+
+.block2 {
+  position: absolute;
+  width: 10vh;
+  height: 15vh;
+  left: 10%;
+  top: 60%;
+  padding: 40px;
+}
+
+.block3 {
+position: absolute;
+width: 23vh;
+height: 27vh;
+left: 38%;
+top: 55%;
+padding: 40px;
+}
+
+.block4 {
+position: absolute;
+width: 15vh;
+height: 20vh;
+left: 23%;
+top: 8%;
+padding: 40px;
+}
+
+.block:hover{
+background-color: white;
+}
+
+.block2:hover{
+background-color: white;
+}
+
+.block3:hover{
+background-color: white;
+}
+
+.block4:hover{
+background-color: white;
+}
+
+
+.link {
+  position: absolute;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 50px;
+  bottom: 5%;
+  right: 5%;
+}
