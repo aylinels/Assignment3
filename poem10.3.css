@@ -1,0 +1,44 @@
+.container {
+}
+
+.poem {
+  position: absolute;
+  left: 40%;
+  top: 0%;
+  font-family: Futura;
+  color: black;
+  font-size: 15px;
+}
+
+#bro{
+font-size: 150px;
+left: 40%;
+top: 45%;
+}
+
+#ken{
+font-size: 150px;
+left: 85%;
+top: 55%;
+}
+
+.box1 {
+  position: absolute;
+  left: 30%;
+  top: 5%;
+}
+
+.box2 {
+  position: absolute;
+  left: 60%;
+  top: 70%;
+}
+
+.link {
+  position: absolute;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 10px;
+  bottom: -50%;
+  left: 5%;
+}

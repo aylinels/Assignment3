@@ -1,0 +1,45 @@
+.body {
+background-color: black;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  font-family: Futura;
+  color: red;
+  font-size: 15px;
+}
+
+.poem {
+ position: absolute;
+ left: 80%;
+ top: 5%;
+ text-align: right;
+}
+
+.box {
+position: absolute;
+background-color: black;
+height: 95vh;
+width: 60vh;
+}
+
+.link {
+  position: absolute;
+  font-family: Futura;
+  font-weight: bold;
+  font-size: 10px;
+  bottom: 5%;
+  left: 5%;
+}
+
+.box:hover{
+  background-color: transparent;
+}
+
+#find{
+position: absolute;
+left: 20%;
+top: 40%;
+color: white;
+}
